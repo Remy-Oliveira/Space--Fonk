@@ -12,7 +12,7 @@
 
 body {
     min-height: 100vh;
-    background: url(landscape_2.jpg) no-repeat;
+    background: url(landscape_medium.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     transition: .8s;
@@ -65,14 +65,14 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: white;
     text-decoration: none;
     font-weight: 700;
 }
 
 .navbar a {
-    font-size: 1.5rem;
+    font-size: 15px;
     color: white;
     text-decoration: none;
     font-weight: 500;
@@ -96,17 +96,12 @@ body {
 
 /* BREAKPOINTS */
 
-@media (max-width: 1044px) {
-    .header {
-        padding: 1.3rem 5%;
-        transition: .8s;
-    }
-}
 
-@media (max-width: 930px) {
+
+@media (orientation: portrait) {
 
     body {
-        background: url(portrait_2.jpg) no-repeat;
+        background: url(portrait_medium.jpg) no-repeat;
         background-size: cover;
         background-position: left;
         transition: .8s;
@@ -152,7 +147,7 @@ body {
     }
 
     #check:checked~.navbar {
-        height: 17.7rem;
+        height: 14rem;
     }
 
     .navbar a {
